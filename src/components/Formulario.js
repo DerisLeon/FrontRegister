@@ -12,9 +12,6 @@ function Formulario(){
     })
   }, []);
 
-  console.log(registros);
-
-
   function handleChange(event){
     setobjRegistro({...objRegistro, [event.target.name]:event.target.value});
   }
